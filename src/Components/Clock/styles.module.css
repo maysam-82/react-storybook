@@ -1,0 +1,9 @@
+.clockContainer {
+  font-size: 1rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 0.625rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
