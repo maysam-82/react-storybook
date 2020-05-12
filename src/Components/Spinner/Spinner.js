@@ -4,12 +4,12 @@ import classes from './styles.module.css';
 const Spinner = ({ text }) => {
 	return (
 		<div className={classes.spinnerContainer}>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
-			<div></div>
+			<div className={classes.spinnerLine}></div>
+			<div className={classes.spinnerLine}></div>
+			<div className={classes.spinnerLine}></div>
+			<div className={classes.spinnerLine}></div>
+			<div className={classes.spinnerLine}></div>
+			<div className={classes.spinnerLine}></div>
 			{text ? <p>{text}</p> : null}
 		</div>
 	);
